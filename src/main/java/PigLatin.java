@@ -56,5 +56,5 @@ public class PigLatin {
     return sWord + "way";
   }
   return sWord.substring(findFirstVowel(sWord), sWord.length()) + sWord.substring(0,findFirstVowel(sWord)) + "ay";
-	    }
-    //end PigLatin class
+    }
+}    //end PigLatin class
